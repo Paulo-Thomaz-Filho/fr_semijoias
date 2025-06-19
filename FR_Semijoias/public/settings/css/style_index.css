@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, #ffa600, #ff007b);
+    color: white;
+    text-align: center;
+    margin: 0;
+    animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
